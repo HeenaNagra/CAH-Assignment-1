@@ -10,7 +10,7 @@
 nav a{
     color:white;
     text-decoration:none;
-    font-size:px;
+    font-size:20px;
     padding:5px;
 }
 body{
@@ -36,7 +36,6 @@ header {
 }
 .heading{
     font-family:"Bebas Neue";
-    font-size:80px;
     color:white;
     font-size:60px;
     font-weight:400;
@@ -125,7 +124,7 @@ hr{
     font-weight:400;
  }
  .box:not(:first-child){
-    border-left:1px solid rgb(219, 214, 214)
+    border-left:1px solid rgb(219, 214, 214);
  }
  .heading2{
 font-weight:400;
@@ -352,34 +351,208 @@ padding-top:130px;
    height:820px;
    width:100%;
 }
-.logo{
-    /* display:flex; */
-    /* justify-items:space-between; */
-    /* column-gap:10px; */
-    /* height:150px; */
-    /* width:100%; */
+.logos{
     padding-left:220px;
     padding-right: 220px;
-    padding-top:200px;
-    padding-bottom: 100px;
+    padding-top:60px;
+    padding-bottom:80px;
     display:grid;
     grid-template-columns:auto auto auto auto;
     column-gap:30px;
 }
-.logos{
+.logoipsum{
+    background-color: #FAFBFD;
+   
+}
+.alllogo{
     height:130px;
     width:230px;
-     /* padding-left:200px; */
-    /* margin-right:100px; */
-    /* margin-left: 200px; */
-    
-   
+}
+.a5{
+    display:flex;
+    column-gap:10px;
+    margin-top:-9%;
+    justify-content:space-between;
+    margin-left:180px;
+    margin-right:180px;
+    color: #666666;
+    font-family:"Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height:1.6em;
 
+
+}
+
+.boxes{
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+    padding:40px 45px 40px 45px;
+}
+
+ .picture{
+    margin-top: 20px;
+    height: 60px;
+    width:60px;
+    border-radius:50px;
+ }
+.personaldetail{
+    display:flex;
+}
+.name{
+    color: #323335;
+}
+.passion{
+    color: #1E1E1E;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform:uppercase;
+}
+.john{
+    margin-left:30px;
+    margin-top: 25px;
+}
+.martin{
+    margin-left:30px;
+    margin-top: 25px;
+}
+.jeny{
+    margin-left:30px;
+    margin-top:25px;
+}
+.forquery{
+    /* padding:px; */
+    display: flex;
+    
+}
+.blank{
+    background-color:#7961E8;
+    height:800px;
+    width:50%;
+}
+.query{
+    width: 50%;
+    /* padding-left:200px; */
+    /* padding-top:100px; */
+
+}
+.queryheading{
+    /* margin-left:200px; */
+    padding-left:180px;
+    padding-top:100px;
+}
+h4{
+    color: #666666;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top:1px;
+    line-height: 1.6em
+    
+}
+.location{
+    border-bottom:1px solid #0000001A;
+    width:420px;
+
+}
+.footer{
+    background-color: #140748;
+}
+.footer{
+    /* padding-top:100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px; */
+    padding:100px 200px 100px 200px;
+
+}
+.grami{
+    text-align: center;
+    font-size:60px;
+    color: #FFFFFF;
+    font-family:"bebas neue";
+}
+.footericons{
+    display:flex;
+    gap:30px;
+    padding-left:380px;
+    padding-top:30px;
+    border-bottom:1px solid white;
+    padding-bottom:30px;
+    border-color:#333333;
+    
+
+
+
+}
+.footericons i{
+    font-size:25px;
+    color:white;
+    padding:15px;
+
+}
+.footericons i:nth-child(1){
+    background-color: #3b5998;
+}
+.footericons i:nth-child(2){
+    background-color: #1da1f2;
+}
+.footericons i:nth-child(3){
+    background-color: #0077b5;
+}
+.footericons i:nth-child(4){
+        background-color: #ea4c89;
+}
+.footericons i:nth-child(5){
+    background-color: #cd201f;
+}
+.last{
+    color: white;
+    font-size: 16px;
+    font-family: "roboto";
+    margin-top:20px;
+    padding-left: 510px;
 }
 
 
 
 
+
+
+
+@media (max-width:768px){
+/* .navigation{
+  display:flex;
+  justify-content:space-between;
+  background-color:rgba(0, 0, 0, 0.4);
+  background-size:80PX ;
+  font-size:20px;
+  color:white; 
+  padding:10px; 
+} 
+
+ */
+    .heading{
+    
+    font-size:40px;    
+}
+.images{
+  display:grid;
+ grid-template-columns: auto;
+  padding: 30px 30px 30px 30px;
+ 
+
+ }
+ .box:not(:last-child){
+    border-left: none;
+    border-bottom:1px solid rgb(219, 214, 214);
+
+ }
+ .box:last-child{
+    border-left:none;
+ }
+}
 
 
 
